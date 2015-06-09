@@ -8,3 +8,76 @@ title: Le Wagon Middleman boilerplate
     <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
   </p><!-- .doc -->
 </div><!-- .welcome -->
+
+  <!-- Banner -->
+  <div id="banner">
+  <!-- Map -->
+    <div class="container text-center"><div id="map"></div></div>
+
+    <div class="container text-center">
+      <div class="container text-center">
+        <div id="mask_square_left"></div>
+        <div id="square_white"></div>
+        <div id="mask_square_right"></div>
+
+
+        <div id="pic_top"></div>
+        <div id="triangle">
+          <div class="line"></div>
+        </div>
+        <div id="pic_bottom"></div>
+      </div>
+      <%= image_tag "kebab_logo_white.png", alt:"The Kebab Finder" %>
+      <h1>Best Kebabs In Town</h1>
+      <p>The best kebabs and just the best</p>
+    </div>
+
+    <div id="finder">
+      <div class="container text-center">
+        <div>
+          <form action="" class="form-inline">
+            <input type="text" class="form-control" placeholder="25 rue du Petit Musc, Paris">
+            <input type="submit" class="btn btn-warning" value="Fry!">
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Features -->
+  <div id="features" class="padded">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="card-white">
+            <%= image_tag "kebab_open.png", class: "img-height-85", alt:"Best Kebab" %>
+            <h2>Simply the best!</h2>
+            <p>Only juicy and fat kebabs here.</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="card-white">
+            <%= image_tag "kebab_sandwich.png", class: "img-height-85", alt:"Ohh yeah" %>
+            <h2>Wherever! Whenever!</h2>
+            <p>...we'll always deliver! There will always be a kebab close to you and will always be here to tell you, even in the middle of fuckin nowhere.</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="card-white">
+            <%= image_tag "french_fries.png", class:"img-height-85", alt:"French fries" %>
+            <h2>Together Again</h2>
+            <p>You care about clean food? We don't! We, together, only list super unhealthy kebabs and our community is good at it.</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="card-white">
+            <%= image_tag "coins.png", class:"img-height-85", alt:"cheap" %>
+            <h2>Cheap!</h2>
+            <p>Because you don't want pay more than $5 for a kebab. Do you? You drunk piece of shit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
